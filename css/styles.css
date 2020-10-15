@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 body {
@@ -19,11 +19,11 @@ body {
 }
 
 .header h1 {
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .header p {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
@@ -40,11 +40,20 @@ h2 {
     text-align: center;
 }
 
+.one-column p {
+    text-align: center;
+    color: #868e96;
+}
+
 .two-column {
     float: left;
     width: 50%;
-    font-size: 10px;
-    padding: 2% 2% 2% 2%;
+    padding: 20px;
+}
+
+.two-column h2 {
+    font-size: 20px;
+    text-align: left;
 }
 
 .pre-footer {
@@ -53,8 +62,24 @@ h2 {
 }
 
 .four-column {
+    padding: 20px;
     float: left;
     width: 25%;
+}
+
+.four-column h2 {
+    text-align: left;
+}
+
+
+/*IDs de color*/
+
+#footerA {
+    background-color: #21252995;
+}
+
+#footerB {
+    background-color: #212529;
 }
 
 
@@ -86,13 +111,6 @@ h2 {
     content: "";
     display: table;
     clear: both;
-}
-
-.row2:after {
-    content: "";
-    display: table;
-    clear: both;
-    background-color: #21252995;
 }
 
 
